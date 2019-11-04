@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Kicad_sehd_mv-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1419,4 +1420,30 @@ Wire Wire Line
 	4400 1050 4650 1050
 Wire Wire Line
 	3100 1750 4650 1750
+Text Label 9600 3200 0    50   ~ 0
+SIG0
+Text Label 9600 5100 0    50   ~ 0
+SIG1
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5DC3078C
+P 8650 1250
+F 0 "H1" H 8750 1296 50  0000 L CNN
+F 1 "MountingHole" H 8750 1205 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 8650 1250 50  0001 C CNN
+F 3 "~" H 8650 1250 50  0001 C CNN
+	1    8650 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5DC31423
+P 8650 1600
+F 0 "H2" H 8750 1646 50  0000 L CNN
+F 1 "MountingHole" H 8750 1555 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 8650 1600 50  0001 C CNN
+F 3 "~" H 8650 1600 50  0001 C CNN
+	1    8650 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
