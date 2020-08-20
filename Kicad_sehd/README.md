@@ -1,1 +1,1 @@
-Single ended / Half duplex
+Single ended / Half duplex / (High voltage)
